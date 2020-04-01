@@ -1,0 +1,32 @@
+nav {
+    font-family: Arial;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;  /* Vertical space */
+    padding: 0; /* Horizontal space */
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 6px;
+    color: grey;
+    text-decoration: none; /* Removes underlines */
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
