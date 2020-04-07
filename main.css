@@ -64,6 +64,24 @@ button {
     margin: 5px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    font-family: Arial;
+    font-size: small;
+    background-color: #eee;
+}
+
+footer ul {
+    margin: 10px;
+}
+
+footer li {
+    margin: 10px;
+}
+
 .left {
     float: left;
 }
@@ -87,3 +105,5 @@ button {
     align-items: center;
 
 }
+
+
