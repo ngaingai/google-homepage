@@ -54,7 +54,10 @@ input:focus {
 }
 
 input[type=text] {
-    background-image: url("/image/search.png");
+    background-image: url('./images/search.png');
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    padding-left: 40px;
 }
 
 button {
@@ -103,7 +106,6 @@ footer li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 
